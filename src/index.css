@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.appbar{
+  padding: 1rem;
+  position: static;
+  top: 0;
+}
+.top-sec{
+  width: 100%;
+  height: 25rem;
+  background: url('./assets/bg.jpg');
+  /* background: #141E30;  fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #243B55, #141E30);   Chrome 10-25, Safari 5.1-6 */ 
+  /* background: linear-gradient(to right, #243B55, #141E30); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6.2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formContainer{
+  width: 80%;
+  height: 80%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formContainer form{
+  width: 90%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.sevenTopCoin{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.heading-top{
+  width: 100%;
+  height: 10rem;
+  /* background-color: #243B55; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: whitesmoke; */
+  text-transform: uppercase;
+}
+
+.bottom-sec{
+  width: 100%;
+  height: auto;
+  background-color: #243B55;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+   background: #141E30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30); /*  Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.cardContainer{
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 32.5%);
+  grid-template-rows: repeat(5, 19%);
+  gap: 1rem;
+}
+.cardItem{
+  border: .2rem solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color:#04173746;
+}
+.cardDetails{
+  width: 95%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.logoContainer{
+  width: 100%;
+  height: 40%;
+  background-attachment: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoDes{
+  width: 32%;
+  height: 100%;
+  background-color: #141E30;
+  border-radius: 50%;
+}
+.logoDes img{
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+}
+.cardContent .name{
+  font-size: 1.7rem;
+  color: white;
+}
+.cardContent .symbol{
+  font-size: 1.4rem;
+  color: red;
+}
+.cardContent .price{
+  font-size: 1.2rem;
+  color: green;
+}
+
+.allCoins{
+  width: 100%;
+  height: auto;
+  background: #141E30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30); /*  Chrome 10-25, Safari 5.1-6 */
+  background: li  snear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.allCoinsData{
+  width: 100%;
+  height: auto;
+  background: #141E30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30); /*  Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.coin-container-dtls{
+  width: 100%;
+  height: 100%;
+  background: #141E30; 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 3rem;
+}
+.coinDtlsDesign{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  /* flex-direction: column; */
+}
+.imgDtls{
+  width: 40%;
+  height: 80%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.coinImg{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 50%; */
+}
+.coinImg img{
+  width: 40%;
+  height: 40%;
+  background-position: center;
+  /* border-radius: 50%; */
+}
+.coinDtls{
+  width: 60%;
+  height: 80%;
+  /* background-color: yellowgreen; */
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.coinGraph{
+  width: 100%;
+  height: 50%;
+}
+.searchCoinBg{
+  width: 100%;
+  height: auto;
+  /* background-color: #243B55;  */
+  background: #141E30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30); /*  Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+@media (max-width : 768px) {
+  html{
+    font-size: 40%;
+  }
+}
